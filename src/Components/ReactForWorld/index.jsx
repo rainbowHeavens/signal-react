@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-
-class ReactForWorld extends Component{  
-    // constructor(){
-    //     super()
-    // }
+class ReactForWorld extends Component{ 
+    constructor(props){
+        super(props)
+    }
     render(){
         const element = <h2>你好，世界</h2>
         return(

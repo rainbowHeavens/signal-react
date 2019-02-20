@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from "./logo.svg"
 import './App.css';
-import MobxappState from './Components/MobxappState/MobxappState'
 import ReactForWorld from './Components/ReactForWorld';
 class App extends Component {
   render() {
@@ -12,8 +11,9 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <div className="container">
-          {/* <MobxappState /> */}
           <ReactForWorld name="sara" />
+          <ReactForWorld name="Cahal" />
+          <ReactForWorld name="Edite" />
         </div>
       </div>
     );
